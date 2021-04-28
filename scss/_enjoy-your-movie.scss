@@ -1,0 +1,51 @@
+.page-enjoy-your-movie{
+
+
+		height:100vh;
+		background-color:#002638;
+	
+
+	main{
+		background-color:#002638;
+		text-align:center;
+		color:#6BADA8;
+		text-align:center;
+
+
+		h2{
+			color:#6BADA8;
+			margin-top:6rem;
+			font-size:4rem;
+			font-weight:600;
+			margin-bottom:1rem;
+		}
+
+		p{
+			font-size:3rem;
+			font-weight:300;
+			margin:0;
+
+		}
+
+		.info{
+			margin-bottom:5rem;
+		}
+
+		img{
+			width:30%;
+			padding:3rem;
+		}
+
+		a {
+			text-decoration:none;
+			border-radius: 0.25rem;
+  			background-color: #6BADA8;
+  			border: 1px solid #6BADA8;
+  			padding: 1rem 1.5rem 1rem;
+  			font-size: 1.25rem;
+  			text-transform: uppercase;
+  			color: #002638;
+		}
+
+	}
+}

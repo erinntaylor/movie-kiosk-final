@@ -1,0 +1,131 @@
+.select-a-time{
+
+	
+		background-color:#fff;
+		height:100vh;
+
+	
+
+	main{
+		//padding:2rem 3rem;
+		display:grid;
+		grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr auto;
+
+		.left{
+			padding:3rem 3rem;
+			display:grid;
+			//grid-row: 1 / span 2;
+			grid-column: 1 / span 4;
+
+			h1{
+				font-size:2rem;
+				font-weight:300;
+			}
+
+			p{
+				font-size:1.25rem;
+				font-weight:300;
+				color:#717070;
+			}
+
+			a{
+				font-size:1.25rem;
+				color:#6BADA8;
+				border: 2px solid #6BADA8;
+				padding:.5rem 1rem;
+				text-decoration:none;
+				border-radius:5px;
+				margin-top:2rem;
+				line-height:3;
+			}
+
+			form {
+  				display: grid;
+  				grid-template-columns: repeat(6, auto);
+  				grid-gap:1rem;
+
+			}
+
+			form label p{
+				font-size:1.25rem;
+				color:#6BADA8;
+				border: 2px solid #6BADA8;
+				padding:.5rem;
+				text-decoration:none;
+				border-radius:5px;
+				text-align:center;
+				//margin-top:2rem;
+				//line-height:3;
+			}
+
+			input:checked + label p {
+  				color: #fff;
+  				background-color:#6BADA8;
+			}
+
+			input:checked + label {
+  				/* if you are using a border, this is where you would modify it for a selected state */
+				border: solid 3px #5E4996;
+				background-color:#6BADA8;
+			}
+
+
+		}
+
+		.right{
+			display:grid;
+			grid-row: 1 / span 3;
+			grid-column: 5 / span 2;
+			justify-content:end;
+			//z-index:1;
+
+			img{
+				display:grid;
+				height:100%;
+				width:100%;
+				object-fit:cover;
+
+				padding:0;
+				margin:0;
+				justify-self:end;
+			}
+		}
+	}
+
+
+	.footer{
+		
+		//left:0;
+
+ 		padding:2rem;
+ 		grid-row:2;
+ 		grid-column:1 / span 4;
+ 		display:grid;
+ 		grid-gap:3rem;
+ 		grid-template-columns: 1fr 1fr 1fr;
+ 		grid-template-rows:1fr;
+ 		background-color:#002638;
+		align-items:center;
+
+		//position:fixed;
+		//bottom:0;
+		//width:60%;
+
+		a{
+				font-size:1.25rem;
+				color:#6BADA8;
+				border: 2px solid #6BADA8;
+				text-decoration:none;
+				border-radius:5px;
+				margin-top:0;
+				line-height:3;
+				align-items:center;
+				text-align:center;
+
+		}
+ }
+
+
+
+}
